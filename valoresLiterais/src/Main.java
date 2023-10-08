@@ -4,7 +4,7 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
         //default double por isso necessario explicita "f"
-        float salario = 4_630.00f;
+        float salario = 5_832.00f;
         float rendimento = 0.5f;
         Locale locale = new Locale("pt", "BR");
         NumberFormat moeda = NumberFormat.getCurrencyInstance(locale);
